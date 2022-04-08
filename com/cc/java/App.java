@@ -4,27 +4,21 @@ public class App {
     
     public static void main(String[] args) {
      
-       Cat cat = new Cat();
+       Cat cat = new Cat("PussyCat", "White", 20);
        
-       cat.name= "Grizabella";
-       cat.forColor = "White";
-       cat.age= 20;
        output("Name: \t\t" + cat.name);
        output("Fellfarbe: \t" + cat.forColor);
        output("Alter: \t\t" + cat.age);
 
-       output("-------------------------------------------");
+       output("------------------------");
 
-       Cat cat1 = new Cat();
-       
-       cat1.name= "Tom";
-       cat1.forColor = "Black";
-       cat1.age= 25;
+       Cat cat1 = new Cat("Tom", "Black", 25);
+
        output("Name: \t\t" + cat1.name);
        output("Fellfarbe: \t" + cat1.forColor);
        output("Alter: \t\t" + cat1.age);
 
-       output("-------------------------------------------");
+       output("------------------------");
 
 
  /*    output("Blick von aussen: " +cat);
