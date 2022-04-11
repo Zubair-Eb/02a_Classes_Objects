@@ -6,17 +6,17 @@ public class App {
      
        Cat cat = new Cat("PussyCat", "White", 20);
        
-       output("Name: \t\t" + cat.name);
-       output("Fellfarbe: \t" + cat.forColor);
-       output("Alter: \t\t" + cat.age);
+       output("Name: \t\t" + cat.getName());
+       output("Fellfarbe: \t" + cat.getForColor());
+       output("Alter: \t\t" + cat.getAge());
 
        output("------------------------");
 
        Cat cat1 = new Cat("Tom", "Black", 25);
 
-       output("Name: \t\t" + cat1.name);
-       output("Fellfarbe: \t" + cat1.forColor);
-       output("Alter: \t\t" + cat1.age);
+       output("Name: \t\t" + cat1.getName());
+       output("Fellfarbe: \t" + cat1.getForColor());
+       output("Alter: \t\t" + cat1.getAge());
 
        output("------------------------");
 
